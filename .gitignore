@@ -3,3 +3,6 @@ Lib/
 Scripts/
 pyvenv.cfg
 */__pycache__
+*-checkpoint.ipynb
+*.pyc
+*.pdf
