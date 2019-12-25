@@ -5,6 +5,8 @@ a = np.array([[1,2,3],[4,5,6]])
 b = np.array([1,2,3,4,5], dtype=complex)
 print(a, b, a.ndim, a.shape, a.size, a.dtype, a.itemsize, b.flags)
 
+print(np.c_[np.array([[1,2,3]]),0, 0, np.array([[4,5,6]])])
+
 a = np.arange(24)
 print(a, a.ndim)
 a = a.reshape(2,4,3)
